@@ -6,15 +6,4 @@
 - `Code`: `` `code` ``
 - ~~Strikethrough~~: `~~text~~`
 
-## Lists
-- Unordered: `- Item` or `* Item`
-- Ordered: `1. Item`
 
-## Links and Images
-- Link: `[Google](https://www.google.com)`
-- Image: `![Alt text](image.jpg)`
-
-## Code Blocks
-- Inline: `` `code` ``
-- Block:
-  
