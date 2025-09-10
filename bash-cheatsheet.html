@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bash Cheat Sheet</title>
+</head>
+<body>
+  <h1>Bash Cheat Sheet</h1>
+
+  <h2>Navigation</h2>
+  <pre>
+pwd        # show current directory
+ls         # list files
+cd dir     # change directory
+cd ..      # go up one level
+  </pre>
+
+  <h2>File Operations</h2>
+  <pre>
+touch file.txt   # create file
+cp a b           # copy file
+mv a b           # move/rename file
+rm file.txt      # delete file
+mkdir dir        # create directory
+rmdir dir        # remove empty directory
+rm -r dir        # remove directory and contents
+  </pre>
+
+  <h2>Viewing Files</h2>
+  <pre>
+cat file.txt     # print contents
+less file.txt    # view contents page by page
+head file.txt    # first 10 lines
+tail file.txt    # last 10 lines
+  </pre>
+
+  <h2>Permissions</h2>
+  <pre>
+chmod 755 file   # change permissions
+chown user file  # change owner
+  </pre>
+
+  <h2>Processes</h2>
+  <pre>
+ps              # list processes
+top             # show active processes
+kill PID        # kill process by PID
+  </pre>
+
+  <h2>Other Useful</h2>
+  <pre>
+grep pattern file   # search in file
+history             # show command history
+man command         # show manual page
+  </pre>
+
+  <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>
